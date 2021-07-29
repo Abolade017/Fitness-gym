@@ -6,7 +6,7 @@
       <h1>
         Awesome Packages That We
         <span>
-          <h1 class="pt-2">For Our Clients</h1>
+          <h1 class="pt-2">Offer For Our Clients</h1>
         </span>
       </h1>
     </div>
