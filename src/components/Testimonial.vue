@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center space-x-24 items-center relative mx-auto max-w-5xl">
-    <div class="h-5xl w-exact-sm">
+    <div class="h-5xl w-exact">
       <img src="@/assets/images/motherschild.jpg" alt="mother_child_fitness" class="w-full h-full" />
     </div>
     <div class="flex flex-col space-y-6 items-start h-5xl">
@@ -12,7 +12,7 @@
         </span>
       </p>
     </div>
-    <div class="absolute -right-36 top-96">
+    <div class="absolute -right-32 top-96">
       <Box />
     </div>
     <div class="absolute bg-white h-80 w-exact top-52 -right-12 rounded-tr-5xl">
