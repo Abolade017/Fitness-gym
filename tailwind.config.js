@@ -31,6 +31,7 @@ module.exports = {
 
       },
       width: {
+        'exact-xs': '50%',
         'exact-sm': '54%',
         exact: '56%',
         '5xl': '84rem',

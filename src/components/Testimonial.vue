@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center space-x-24 items-center relative mx-auto max-w-5xl">
-    <div class="h-5xl w-exact">
+    <div class="h-5xl w-exact-xs">
       <img src="@/assets/images/motherschild.jpg" alt="mother_child_fitness" class="w-full h-full" />
     </div>
     <div class="flex flex-col space-y-6 items-start h-5xl">
