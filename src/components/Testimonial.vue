@@ -15,7 +15,7 @@
     <div class="absolute -right-28 top-96">
       <Box />
     </div>
-    <div class="absolute bg-white h-80 w-exact-sm top-52 -right-10 rounded-tr-5xl">
+    <div class="absolute bg-white h-80 w-exact top-52 -right-12 rounded-tr-5xl">
       <div class="flex flex-col justify-center pt-20 px-10 space-y-8">
         <p
           class="text-left text-dark text-xl font-Josefin"
