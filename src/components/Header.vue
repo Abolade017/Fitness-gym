@@ -10,13 +10,9 @@
         <router-link to="/about" class="text-gray-500">Contact</router-link>
       </div>
     </div>
-   <FitnessClub />
-   <div class="flex items-center space-x-10">
-       <!-- <Button/>
-       <Button title="Know More" /> -->
-      <button
-        class="rounded-full bg-red-500 text-white font-Noto text-center flex justify-center items-center w-40 h-12 bg-transparent shadow-lg"
-      >Join Now</button>
+    <FitnessClub />
+    <div class="flex items-center space-x-10">
+      <Button>Join Now</Button>
       <button
         class="rounded-full bg-red-50 text-dark font-Cormorant text-center flex justify-center items-center w-40 h-12 ring-2 ring-red-200 ring-opacity-50"
       >Know More</button>
@@ -25,12 +21,12 @@
   </div>
 </template>
 <script>
-import FitnessClub from '../components/FitnessClub';
-// import Button from '../components/Button'
+import FitnessClub from "../components/FitnessClub";
+import Button from '../components/Button'
 export default {
-    components:{
-        FitnessClub,
-        // Button
-    }
-}
+  components: {
+    FitnessClub,
+    Button
+  }
+};
 </script>

@@ -23,7 +23,9 @@ module.exports = {
         '5xl':'5rem',
       },
       height:{
-        exact: '91%'
+        exact: '91%',
+        'h-xl': '26rem'
+        
       },
       width:{
         // exact:'50%',

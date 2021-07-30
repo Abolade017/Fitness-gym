@@ -15,7 +15,7 @@
         </h1>
       </div>
       <div
-        class="text-dark"
+        class="text-dark text-lg font-spartan"
       >And gym is a club, building, or large room usually containing special equipment where people go to.</div>
     </div>
   
