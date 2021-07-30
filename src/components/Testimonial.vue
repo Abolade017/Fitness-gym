@@ -12,7 +12,7 @@
         </span>
       </p>
     </div>
-    <div class="absolute -right-32 top-96">
+    <div class="absolute -right-28 top-96">
       <Box />
     </div>
     <div class="absolute bg-white h-80 w-exact-sm top-52 -right-12 rounded-tr-5xl">
