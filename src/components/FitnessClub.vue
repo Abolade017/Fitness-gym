@@ -1,4 +1,5 @@
 <template>
+<div class="mx-auto max-w-5xl">
     <div class="flex flex-col space-y-10 pt-20">
       <div class="items-center text-red-500 text-left font-bold font-Baloo flex space-x-4">
         <p>- Fitness Club</p>
@@ -18,5 +19,5 @@
         class="text-dark text-lg font-spartan"
       >And gym is a club, building, or large room usually containing special equipment where people go to.</div>
     </div>
-  
+  </div>
 </template>

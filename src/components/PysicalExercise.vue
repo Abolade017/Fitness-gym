@@ -1,8 +1,8 @@
 <template>
-  <div class="relative py-44 mx-auto max-w-4xl ">
+  <div class="relative py-44 mx-auto max-w-5xl ">
     <div class="flex items-center justify-center space-x-10">
-      <div class="w-full h-xl">
-        <img src="@/assets/images/woman-runner.jpg" alt="woman_runner" class="object-cover rounded-br-5xl w-full h-xl flex justify-center items-center" />
+      <div class="w-5xl h-5xl items-center">
+        <img src="@/assets/images/woman-runner.jpg" alt="woman_runner" class="object-cover rounded-br-5xl w-full h-full flex justify-center items-center" />
       </div>
       <div class="flex flex-col space-y-6 items-start justify-start">
         <div>

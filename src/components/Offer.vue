@@ -1,7 +1,7 @@
 <template>
-  <div class="flex items-center justify-center space-x-10">
+  <div class="flex items-center justify-between space-x-12">
     <div
-      class="bg-white h-64  w-48 rounded-bl-xl flex flex-col justify-center items-center border-opacity-75 border border-gray-200"
+      class="bg-white h-64  w-56 rounded-bl-xl flex flex-col justify-center items-center border-opacity-75 border border-gray-200"
       v-for="offer in offers"
       :key="offer.id"
     >
@@ -20,7 +20,7 @@
         </div>
        
       </div>
-       <div class="flex justify-center items-center text-center text-red-500 text-md pb-4 " v-if="!more && offer.id==3">{{offer.more}}</div>
+       <div class="flex justify-center items-center text-center text-red-500 text-md pb-4 "><a href="#" class="items-center"  v-if="!more && offer.id==3">{{offer.more}}</a></div>
     </div>
   </div>
 </template>

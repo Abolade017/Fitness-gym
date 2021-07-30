@@ -1,4 +1,5 @@
 <template>
+<div class="mx-auto max-w-5xl">
   <div class="flex flex-col space-y-8 items-center justify-center relative">
     <div class="absolute"></div>
     <div class="items-center font-Otomanopee text-red-500 text-lg font-bold">Our Services</div>
@@ -11,6 +12,7 @@
       </h1>
     </div>
     <Offers />
+  </div>
   </div>
 </template>
 <script>

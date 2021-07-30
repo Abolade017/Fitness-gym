@@ -10,6 +10,9 @@
     <PhysicalExercise />
     <ImproveMode />
     <OurInstructors />
+    <Testimonial />
+    <Subscribe />
+    <Footer />
   </div>
 </template>
 <script>
@@ -19,6 +22,9 @@ import OurService from "../components/OurService";
 import PhysicalExercise from "../components/PysicalExercise";
 import ImproveMode from "../components/ImproveMode";
 import OurInstructors from "../components/OurInstructors";
+import Testimonial from  "../components/Testimonial";
+import Subscribe from '../components/Subscribe';
+import Footer from '../components/Footer';
 export default {
   components: {
     Header,
@@ -27,6 +33,9 @@ export default {
     PhysicalExercise,
     ImproveMode,
     OurInstructors,
+    Testimonial,
+    Subscribe,
+    Footer,
   }
 };
 </script>

@@ -15,20 +15,27 @@ module.exports = {
         Cormorant: ['Cormorant', 'serif'],
         Baloo: ['Baloo 2', 'cursive'],
         Otomanopee: ['Otomanopee One', 'sans-serif'],
+        'Baloo-chettan': ['Baloo Chettan 2', 'cursive'],
+        Josefin: ['Josefin Slab', 'serif'],
       },
-      fontSize:{
+      fontSize: {
         '10xl': '9.5rem',
       },
-      borderRadius:{
-        '5xl':'5rem',
+      borderRadius: {
+        '5xl': '5rem',
+        '6xl': '6rem',
       },
-      height:{
+      height: {
         exact: '91%',
-        'h-xl': '26rem'
-        
+        '5xl': '36rem'
+
       },
-      width:{
-        // exact:'50%',
+      width: {
+        'exact-sm': '54%',
+        exact: '56%',
+        '5xl': '84rem',
+        '4xl': '60rem',
+        '6xl': '40rem',
       },
     },
   },
