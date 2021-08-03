@@ -12,9 +12,9 @@
       </div>
       <div class="absolute top-80 -left-8">
         <div class="flex items-center justify-center rounded-full h-24 w-24 bg-white">
-          <div class="flex items-center justify-center h-24 w-24">
+          <button class="flex items-center justify-center h-24 w-24" @click="message">
             <i class="fas fa-play text-red-600 flex items-center justify-center h-full w-full"></i>
-          </div>
+          </button>
         </div>
       </div>
     </div>
@@ -24,6 +24,11 @@ import Box from '../components/Box';
 export default {
   components:{
     Box,
+  },
+  methods:{
+    message(){
+      alert('sorry!, it is just an image');
+    }
   }
 }
 </script>
